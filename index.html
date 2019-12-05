@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Closet Store</title>
+    <meta name="description" content="My Shop">
+    <meta name="author" content="RP">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+
+    <header>
+     <div class="header">
+      <h1>My Closet</h1>
+      <p>Here are my products:</p>
+      </div>
+      <div class="navbar">
+      <nav aria-label="Primary">
+          <ul>
+            <button type="button">
+              <span class="material-icons">menu</span>
+             </button>
+            <li><a href="#">Tops</a></li>
+            <li><a href="#">Bottoms</a></li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Sale</li>
+          </ul>
+            <form>
+                <label>Search
+                  <input type="search" name="find" id="find">
+                  </label>
+                  <button type="button"><span class="material-icons">search</span></button>
+                  <fieldset>
+                    <legend>Price (less than)</legend>
+                    <label><input type="radio" name="Price" value="all" checked>All</label>
+                    <label><input type="radio" name="Price" value="60">$60</label>
+                    <label><input type="radio" name="Price" value="70">$70</label>
+                    <label><input type="radio" name="Price" value="80">$80</label>
+                    <label><input type="radio" name="Price" value="90">$90</label>
+                  </fieldset>
+            </form>
+          </div>
+      </nav>
+
+    </header>
+
+    <main>
+      <h2>Shop My Closet</h2>
+      <button id="layout">Flip Layout</button>
+      <section id="courses" class="courses"></section>
+    </main>
+
+    <footer>
+        <div class="footer">
+          <p>&copy; Copyright, 1991.</p>
+          <nav aria-label="Legal">
+            <ul>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Accessibility Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+  </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
